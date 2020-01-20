@@ -11,6 +11,7 @@
     "watch": "nodemon --config ./nodemon.json --"
   },
   "dependencies": {
+    "@babel/register": "^7.8.3",
     "bigint-hash": "^0.2.2",
     "cookie-parser": "^1.4.4",
     "debug": "~2.6.9",

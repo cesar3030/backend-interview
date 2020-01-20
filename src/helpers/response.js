@@ -19,6 +19,7 @@ export const notFound = res => entity => {
 export const handleResponse = (res, entity, status) => {
   if (entity) {
     res.status(status || HttpStatus.OK).json(entity);
+    return null;
   }
   res.status(HttpStatus.NOT_FOUND).end();
   return null;
